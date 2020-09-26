@@ -3,7 +3,7 @@
 
   1.Run vgs to check if there's any space:
 
-    `sudo vgs
-    `
-    
+  `this is a command 
+  `
+
   2.If there is ant free space you can add it to your root, just run:
