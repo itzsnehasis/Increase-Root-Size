@@ -22,7 +22,6 @@
     lvresize -L +10G --resizefs /dev/mapper/fedora-root
 
   4.This the testing code :
-    ```
-    This is a code
-    ```
-  
+     ```
+     This is a code
+     ```
