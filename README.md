@@ -3,7 +3,7 @@
 
   1.Run vgs to check if there's any space:
 
-    'i am code'
+    sudo vgs
 
   2.If there is you can just run:
 
@@ -20,3 +20,9 @@
     And then to extend your rootpartition run:
 
     lvresize -L +10G --resizefs /dev/mapper/fedora-root
+
+  4.This the testing code ...
+    '''
+    sudo test
+
+    '''
