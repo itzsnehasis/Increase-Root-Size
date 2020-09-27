@@ -10,18 +10,20 @@
 
   2.If there is any free space you can add it to your root, just run:
 
-  `lvresize -L +5G --resizefs /dev/mapper/fedora-root`
+  `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
 
   *If you Don't have any Free space You have to shrink some space from the home partition*
 
   - To shirnk Space from Home run the below command :
 
-  `lvresize -L -10G --resizefs /dev/mapper/fedora-home`
+  `lvresize -L -XG --resizefs /dev/mapper/fedora-home`
 
   - To extend your root partition with that that shrinked space,run :
 
-  `lvresize -L +10G --resizefs /dev/mapper/fedora-root`
+  `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
+
+*Here X = Ammount of space*
 
 ---
-### To Join the official group of Fedora Linux Touch [Here](https://t.me/fedora)
+### To Join the official group of Fedora Linux Touch [Here](http://t.me/fedora)
 ---
