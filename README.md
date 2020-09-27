@@ -22,6 +22,7 @@
   - To extend your root partition with that that shrinked space,run :
 
   `lvresize -L +10G --resizefs /dev/mapper/fedora-root`
-
+---
 ---
 ### To Join the official group of Fedora Linux Touch [Here](https://t.me/fedora)
+---
