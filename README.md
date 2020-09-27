@@ -23,4 +23,4 @@
   `lvresize -L +10G --resizefs /dev/mapper/fedora-root`
 
 
-**This is the official group of Fedora Linux you can join [here](https://t.me/fedora)** 
+**To Joint the official group of Fedora Linux Touch [Here](https://t.me/fedora)** 
