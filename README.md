@@ -6,7 +6,7 @@
   `sudo vgs
   `
 
-  *to check where your fedora root and home partition is mounted by running `fdisk -l`*
+  *to check where your fedora root and home partition is mounted ,run: `fdisk -l`*
 
   2.If there is any free space you can add it to your root, just run:
 
@@ -21,3 +21,5 @@
   - To extend your root partition with that that shrinked space,run :
 
   `lvresize -L +10G --resizefs /dev/mapper/fedora-root`
+
+####### this is the official group of fedora you can join [here](https://t.me/fedora) 
