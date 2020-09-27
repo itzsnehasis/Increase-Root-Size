@@ -1,4 +1,4 @@
-### Increae The Size of Root
+### increase The Size of Root
   **Here is the method how you can increase your root partitions in Fedora Linux**
 
   1.Run vgs to check if there's any space:
