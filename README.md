@@ -1,3 +1,4 @@
+---
 ### Increae The Size of Root
   **Here is the method how you can increase your root partitions in Fedora Linux**
 
@@ -24,4 +25,3 @@
 
 ---
 ### To Join the official group of Fedora Linux Touch [Here](https://t.me/fedora)
----
