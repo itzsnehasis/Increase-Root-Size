@@ -16,11 +16,11 @@
 
   - To shirnk Space from Home run the below command :
 
-  `lvresize -L -XG --resizefs /dev/mapper/fedora-home`
+    `lvresize -L -XG --resizefs /dev/mapper/fedora-home`
 
   - To extend your root partition with that that shrinked space,run :
 
-  `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
+    `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
 
 *Here X = Ammount of space*
 
