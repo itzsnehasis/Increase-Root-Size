@@ -3,23 +3,23 @@
 
   1.Run vgs to check if there's any space:
 
-    `sudo vgs`
+  `sudo vgs`
 
   *to check where your fedora root and home partition is mounted ,run: `fdisk -l`*
 
   2.If there is any free space you can add it to your root, just run:
 
-    `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
+  `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
 
   *If you Don't have any Free space You have to shrink some space from the home partition*
 
-- To shirnk Space from Home run the below command :
+  - To shirnk Space from Home run the below command :
 
-    `lvresize -L -XG --resizefs /dev/mapper/fedora-home`
+  `lvresize -L -XG --resizefs /dev/mapper/fedora-home`
 
-- To extend your root partition with that that shrinked space,run :
+  - To extend your root partition with that that shrinked space,run :
 
-    `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
+  `lvresize -L +XG --resizefs /dev/mapper/fedora-root`
 
 *Here X = Ammount of space*
 
