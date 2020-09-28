@@ -23,9 +23,6 @@
 
 *Here X = Ammount of space*
 
-# Testing
-Testing
-
 ---
 ### To Join the official group of Fedora Linux Touch [Here](http://t.me/fedora)
 ---
